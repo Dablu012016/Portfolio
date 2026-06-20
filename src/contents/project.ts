@@ -8,7 +8,7 @@ export const projects: Project[] = [
     description: 'Showcasing My Skills, Projects, and Passion for Full-Stack Development.',
     technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Framer Motion'],
     githubLink: 'https://github.com/Dablu012016/Next.Js-Portfolio',
-    demoLink: 'https://demo.com',
+    demoLink: 'https://portfolio-gaf12nen5-dablu-kumars-projects-a9f604e2.vercel.app/',
     image: '/projects/PortFolio.png',
   },
   {
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     description: 'Test Your Knowledge and Track Your Progress with Interactive Quizzes.',
     technologies: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     githubLink: 'https://github.com/Dablu012016/ToDo_App',
-    demoLink: 'https://web.whatsapp.com/',
+    demoLink: 'https://mini-quiz1-app.netlify.app/',
     image: '/projects/Quiz_app.jpeg',
   },
   {
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description: 'Organize Tasks, Track Progress, and Stay Productive Every Day.',
     technologies: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     githubLink: 'https://github.com/Dablu012016/ToDo_App-with-React.Js',
-    demoLink: 'https://demo.com',
+    demoLink: 'https://to-do-app-with-react-js-five.vercel.app/',
     image: '/projects/ToDo.png',
   },
   {
@@ -48,16 +48,7 @@ export const projects: Project[] = [
     description: 'A frontend technology ToDo List built with JavaScript, CSS, and HTML.',
     technologies: ['JavaScript', 'CSS', 'HTML'],
     githubLink: 'https://github.com/Dablu012016/ToDo_App',
-    demoLink: 'https://demo.com',
+    demoLink: 'https://to-do-hog7e0r0u-dablu-kumars-projects-a9f604e2.vercel.app/',
     image: '/projects/ToDo_Js.png',
   },
-  {
-    title: 'Portfolio Website',
-    description: 'My personal portfolio website showcasing my projects and skills.',
-    technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Framer Motion'],
-    githubLink: 'https://github.com/Dablu012016/Next.Js-Portfolio-Web.git',
-    demoLink: 'https://demo.com',
-    image: '/projects/PortFolio.png',
-  },
-
 ];
