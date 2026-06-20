@@ -8,7 +8,7 @@ export const projects: Project[] = [
     description: 'Showcasing My Skills, Projects, and Passion for Full-Stack Development.',
     technologies: ['Next.js', 'Tailwind CSS', 'JavaScript', 'Framer Motion'],
     githubLink: 'https://github.com/Dablu012016/Next.Js-Portfolio',
-    demoLink: 'https://portfolio-gaf12nen5-dablu-kumars-projects-a9f604e2.vercel.app/',
+    demoLink: 'https://portfolio-psi-eight-gn87s75bz1.vercel.app/project',
     image: '/projects/PortFolio.png',
   },
   {
