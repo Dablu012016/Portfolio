@@ -18,12 +18,13 @@ const Projects = () => {
                 {
                     projects.map((project, index) => {
                         return (
-                            <motion.article {...cardHoverSmall} transition={{delay: 0.1}} key={`${project.title}-${index}`} className='bg-white dark:bg-dark/80 p-6 shadow-md rounded-lg'>
-                                <div className='relative  aspect-video rounded-lg overflow-hidden mb-4'>
+                            <motion.article {...cardHoverSmall} transition={{delay: 0.1}} key={index}  className='bg-white dark:bg-dark/80 p-6 shadow-md rounded-lg'>
+                                <div className='relative  aspect-video rounded-lg overflow-hidden mb-4' key={index} >
                                     <Image
                                         src={project.image}
                                         alt={project.title}
                                         fill
+                                        priority={index === 0}
                                         className="object-cover"
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     />
@@ -36,9 +37,9 @@ const Projects = () => {
 
                                 <div className='flex flex-wrap gap-2 mb-4'>
                                     {
-                                       project.technologies.map((tech, index) =>{
+                                       project.technologies.map((tech) =>{
                                             return(
-                                                <span key={`${tech}-${index}`} className='bg-primary/10 text-primary px-3 py-1 rounded-full text-sm'>{tech}</span>
+                                                <span key={`${tech}`} className='bg-primary/10 text-primary px-3 py-1 rounded-full text-sm'>{tech}</span>
                                             )
                                         })
                                     }

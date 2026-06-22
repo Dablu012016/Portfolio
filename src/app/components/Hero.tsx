@@ -13,7 +13,7 @@ const Hero = () => {
         <section className='container max-w-7xl mx-auto py-24 px-4'>
             <div className='max-w-3xl mx-auto text-center'>
                 <motion.div {...scaleIn} transition={{delay: 0.2}} className='flex flex-col items-center mb-4'>
-                    <Image src="/mypic.jpg" alt="profile picture" width={100} height={100} className='rounded-full w-32 h-32 ring-2 ring-primary object-cover' />
+                    <Image src="/mypic.jpg" alt="profile picture" priority width={100} height={100} className='rounded-full w-32 h-32 ring-2 ring-primary object-cover' />
                 </motion.div>
 
                 <motion.h1 {...fadeInUp} transition={{delay: 0.3}} className='text-3xl md:text-5xl font-bold mb-4'>Hi, I&apos;m <span className='text-primary'>Dablu Kumar</span></motion.h1>
