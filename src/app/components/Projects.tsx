@@ -18,7 +18,7 @@ const Projects = () => {
                 {
                     projects.map((project, index) => {
                         return (
-                            <motion.article {...cardHoverSmall} transition={{delay: 0.1}} key={index} className='bg-white dark:bg-dark/80 p-6 shadow-md rounded-lg'>
+                            <motion.article {...cardHoverSmall} transition={{delay: 0.1}} key={`${project.title}-${index}`} className='bg-white dark:bg-dark/80 p-6 shadow-md rounded-lg'>
                                 <div className='relative  aspect-video rounded-lg overflow-hidden mb-4'>
                                     <Image
                                         src={project.image}
@@ -38,7 +38,7 @@ const Projects = () => {
                                     {
                                        project.technologies.map((tech, index) =>{
                                             return(
-                                                <span key={index} className='bg-primary/10 text-primary px-3 py-1 rounded-full text-sm'>{tech}</span>
+                                                <span key={`${tech}-${index}`} className='bg-primary/10 text-primary px-3 py-1 rounded-full text-sm'>{tech}</span>
                                             )
                                         })
                                     }
